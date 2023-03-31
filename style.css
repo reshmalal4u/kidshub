@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#top_container{
+    background-image: url(https://themewagon.github.io/eflyer/images/banner-bg.png);
+    height: 580px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+#nav_menu{
+    background-color: #2b2a29;
+    clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
+    text-align: center;
+    width: 80%;
+    margin:0px 150px;
+}
+
+ul{
+
+}
+
+ul li{
+    list-style:none;
+    display: inline-block;
+    padding:20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+ul li a:hover{
+    color:red;
+}
+
+#logo{
+    text-align: center;
+    margin: 30px;
+}
+
+#mid_container {
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    margin: 1px;
+}
+
+#content_1{
+    margin: 0px 10px;
+}
+
+#content_2{
+    margin: 0px 10px;
+}
+
+#content_2 button {
+    height: 35px;
+    width: 193px;
+    border-color: none;
+    border-radius: 5px 5px;
+    color: white;
+    background-color:  #473c3c;
+    border: 0;
+}
+
+#content_3{
+    margin: 0px 10px;
+}
+
+#content_3 span{
+    display: flex;
+}
+
+
+#content_4{
+    margin: 0px 10px;
+}
+
+#content_4 button  {
+    height: 35px;
+    width: 193px;
+    font-family: 'Poppins', sans-serif;
+    border-color: none;
+    border-radius: 5px 5px;
+    background-color: white;
+    text-align: center;
+    border: 0;
+    
+}
+
+#content_4 select{
+    border-radius:20px 20px;
+    background-color: white;
+    color: #473c3c;
+    border: 0;
+}
+
+#content_5{
+    margin: 0px 10px;
+}
+
+#content_5 span{
+    color: white;
+}
+
+#content_6{
+    margin: 0px 0px;
+}
+
+#content_6 span{
+    color: white;
+}
+
+input[type="text"] {
+    width: 408px;
+    height: 35px;
+    text-align: center;
+    padding: 3;
+}
+
+#heading {
+    text-align: center;
+}
+
+#heading h1 {
+    font-size: revert;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #473c3c;
+}
+
+#product_section {
+    height: 600px;
+}
+
+
+#all_pdt_wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+#pdt_wrapper {
+    margin: 30px 30px;
+    box-shadow: 15px 15px 15px 15px whitesmoke;
+    width: 364px;
+    height: 495px;
+}
+
+#pdt_details_wrapper {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#pdt_image {
+    text-align: center;
+     width: webkit-fill-available;
+}
+
+#pdt_price {
+    display: flex;
+    justify-content: center;
+}
+
+#price {
+    margin-right: 15px;
+    color: orangered;
+    font-family: 'Poppins', sans-serif;
+}
+
+#bottom_option {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#buy_btn {
+    color: #fa7c16;
+    font-weight: strong;
+    font-weight: 800;
+    margin-right: 100px;
+}
+
+#right_arrow {
+    text-align: center;
+    height: 105px;
+    padding: 13px 0;
+}
+
+#loader{
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #414744;
+        border-right: 16px solid #f26522;
+        border-bottom: 16px solid #414744;
+        border-left: 16px solid #f26522;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 6s linear infinite;
+        margin: 0 auto;
+}
+
+#footer {
+    height: 330px;
+    background-color: #414744;
+    margin-top: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#bottom_logo_wrapper {
+    padding-top: 55px;
+    text-align: center;
+}
+
+#line {
+    width: 720px;
+    height: 13px;
+    text-align: center;
+    margin-left: 271px;
+}
+#customer_details_wrapper {
+    display: flex;
+}
+
+div#email {
+    margin-right: 541px;
+    margin-left: 269px;
+}
+
+#footer_list {
+    text-align: center;
+}
+
+#num {
+    text-align: center;
+}
+
+#right {
+    text-align: center;
+}
